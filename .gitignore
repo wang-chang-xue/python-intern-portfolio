@@ -1,0 +1,13 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 虚拟环境（本仓库不自带环境）
+.venv/
+env/
+
+# IDE
+.vscode/
