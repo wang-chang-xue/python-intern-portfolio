@@ -27,3 +27,5 @@ Python 学习与算法实习作品集。
 - `week2_day2_leetcode.py`：Day2 两数之和（LeetCode 提交版 · 题目 1）
 - `week2_day3.py`：Day3 字典计数练习（统计字符出现次数）
 - `week2_day3_leetcode.py`：Day3 有效的字母异位词（LeetCode 提交版 · 题目 242）
+- `week2_day4.py`：Day4 字符串 / 列表 / 集合练习（单词统计）
+- `week2_day4_leetcode.py`：Day4 存在重复元素（LeetCode 提交版 · 题目 217）

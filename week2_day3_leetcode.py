@@ -1,6 +1,9 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        count1={};count2={}
+        count1={}
+        count2={}
+        if len(s) != len(t):
+            return False
         for i in s:
             if i in count1:
                 count1[i]=1+count1[i]

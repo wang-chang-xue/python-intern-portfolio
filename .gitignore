@@ -11,3 +11,6 @@ env/
 
 # IDE
 .vscode/
+
+# 临时草稿（不提交）
+scratch_*.py
