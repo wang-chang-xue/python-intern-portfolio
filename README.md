@@ -29,3 +29,5 @@ Python 学习与算法实习作品集。
 - `week2_day3_leetcode.py`：Day3 有效的字母异位词（LeetCode 提交版 · 题目 242）
 - `week2_day4.py`：Day4 字符串 / 列表 / 集合练习（单词统计）
 - `week2_day4_leetcode.py`：Day4 存在重复元素（LeetCode 提交版 · 题目 217）
+- `week2_day5.py`：Day5 函数进阶练习（单词统计函数 + 集合运算）
+- `week2_day5_leetcode.py`：Day5 两个数组的交集（LeetCode 提交版 · 题目 349）
