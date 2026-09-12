@@ -31,3 +31,4 @@ Python 学习与算法实习作品集。
 - `week2_day4_leetcode.py`：Day4 存在重复元素（LeetCode 提交版 · 题目 217）
 - `week2_day5.py`：Day5 函数进阶练习（单词统计函数 + 集合运算）
 - `week2_day5_leetcode.py`：Day5 两个数组的交集（LeetCode 提交版 · 题目 349）
+- `project1_word_freq.py`：项目 1（v1）单词频率分析器（统计总词数 / 不同单词数 / 出现最多的前 5 个单词）

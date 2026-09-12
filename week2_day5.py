@@ -20,7 +20,7 @@ s1 = "i like python"
 s2 = "i like java"
 # 1. 共同单词（交集）
 # 2. 只出现在 s1、只出现在 s2 的单词（差集）
-count1=set(s1.split(" "))
-count2=set(s2.split(" "))
+count1=set(s1.split())
+count2=set(s2.split())
 print(count1&count2)
 print(count1-count2)
