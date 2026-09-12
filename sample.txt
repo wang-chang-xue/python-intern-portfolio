@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog.
+The dog barks, and the fox runs away.
+A quick brown dog jumps over a lazy fox.
+Python is fun; Python is powerful.
