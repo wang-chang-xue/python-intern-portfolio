@@ -15,7 +15,10 @@
 
 import os
 
+#NOTE_FILE = "E:/python文件/week3_note.txt"
 NOTE_FILE = "week3_note.txt"
+
+#os.makedirs(NOTE_FILE, exist_ok=True)
 
 
 def write_note(path, lines):
@@ -26,6 +29,8 @@ def write_note(path, lines):
     - 对 lines 里每一行执行 f.write(line + "\n")
     - 不需要 return
     """
+    # TODO: 实现这个函数
+    #line=lines.spilt("\n")
     with open(path,"w",encoding="utf-8") as f:
         for line in lines:
             f.write(line+"\n")
@@ -41,9 +46,9 @@ def read_note(path):
     - f.readlines() 得到带 "\n" 的行列表，再用 line.strip() 去掉换行
     - 或者 f.read().splitlines() 直接得到去掉换行的行列表
     """
+    # TODO: 实现这个函数
     with open(path,"r",encoding="utf-8") as f:
-        line=f.read().splitlines()
-    return line
+        return f.read().splitlines()
 
 
 def to_int(s):
@@ -53,6 +58,7 @@ def to_int(s):
     - 用 try / except ValueError，不要用 s.isdigit() 之类的预判断
     - 例如 to_int("42") -> 42，to_int("abc") -> None
     """
+    # TODO: 实现这个函数
     try:
         s=int(s)
         return s
