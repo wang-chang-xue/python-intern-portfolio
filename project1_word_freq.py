@@ -59,11 +59,12 @@ def top_words(count, n=5):
     """
     # TODO: 实现这个函数
     temp=dict(count)
-    word=[]
+    result=[]
     for i in range(min(n,len(count))):
-        word.append((max(temp,key=temp.get),max(temp.values())))
-        temp.pop(max(temp,key=temp.get))
-    return word
+        best = max(temp, key=temp.get)
+        result.append((best, temp[best]))
+        del temp[best]
+    return result
 
 
 
