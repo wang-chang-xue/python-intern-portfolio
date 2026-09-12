@@ -14,3 +14,6 @@ env/
 
 # 临时草稿（不提交）
 scratch_*.py
+
+# 第 3 周文件读写练习生成的临时文件
+week3_note.txt
