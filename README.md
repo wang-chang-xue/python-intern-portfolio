@@ -11,7 +11,9 @@ Python 学习与算法实习作品集。
 ## 进度
 
 - [x] 第 1 周：环境搭建（Miniconda + Python 3.11 + numpy / pandas / matplotlib / jupyterlab）
-- [ ] 第 2–4 周：Python 基础
+- [x] 第 2 周：Python 基础（含项目 1 v1）
+- [ ] 第 3 周：文件读写 / 异常处理 / 列表推导式 / 模块（进行中）
+- [ ] 第 4 周：面向对象 / 常用标准库 / 综合项目
 - [ ] 第 5–6 周：科学计算（NumPy / Pandas / 可视化）
 - [ ] 第 7–9 周：数学与 ML 地基
 - [ ] 第 10–12 周：深度学习入门（PyTorch / NLP 基础 / Transformer）
@@ -32,3 +34,7 @@ Python 学习与算法实习作品集。
 - `week2_day5.py`：Day5 函数进阶练习（单词统计函数 + 集合运算）
 - `week2_day5_leetcode.py`：Day5 两个数组的交集（LeetCode 提交版 · 题目 349）
 - `project1_word_freq.py`：项目 1（v1）单词频率分析器（统计总词数 / 不同单词数 / 出现最多的前 5 个单词）
+- `project1_word_freq_v2.py`：项目 1（v2）从文件读取文本 + 列表推导式清洗
+- `sample.txt`：示例文本（v2 的默认输入文件）
+- `week3_day1.py`：Day1 文件读写 + 异常处理练习
+- `week3_day1_leetcode.py`：Day1 只出现一次的数字（LeetCode 提交版 · 题目 136）
