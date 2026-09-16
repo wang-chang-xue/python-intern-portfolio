@@ -17,3 +17,6 @@ scratch_*.py
 
 # 第 3 周文件读写练习生成的临时文件
 week3_note.txt
+
+# 第 4 周 json 练习生成的临时文件
+week4_demo.json
